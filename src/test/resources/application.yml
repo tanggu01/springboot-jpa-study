@@ -1,0 +1,23 @@
+spring: #띄어쓰기 없음
+
+  # Test yml 과 운영 yml 설정을 나눠야한다!
+  # ==[2]== 사실 다 지우고 설정이 없으면 스프링이 기본으로 메모리모드로 실행시켜준다..
+
+#  datasource: #띄어쓰기 2칸
+#    url: jdbc:h2:mem:test #==[1]== DB 내리고 돌려도 in memory에서 돌아간다!
+#    username: sa
+#    password:
+#    driver-class-name: org.h2.Driver
+
+#  jpa: #띄어쓰기 2칸
+#    hibernate: #띄어쓰기 4칸
+#      ddl-auto: create
+#    properties: #띄어쓰기 4칸
+#      hibernate: #띄어쓰기 6칸
+##        show_sql: true #띄어쓰기 8칸
+#        format_sql: true #띄어쓰기 8칸
+
+
+logging.level: #띄어쓰기 없음
+  org.hibernate.SQL: debug #띄어쓰기 2칸
+  org.hibernate.type: trace #띄어쓰기 2칸
