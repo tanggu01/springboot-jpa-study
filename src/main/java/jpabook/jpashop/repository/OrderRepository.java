@@ -24,6 +24,14 @@ public class OrderRepository {
 
 //    public List<Order> findALl(OrderSearch orderSearch) {
 //
+//        em.createQuery("select o from Order o join o.member m" +
+//                "where o.status = :status" +
+//                "and m.name like :name ", Order.class)
+//                .setParameter("status", orderSearch.getOrderStatus())
+//                .setParameter("name", orderSearch.getMemberName())
+//                //.setFirstResult(100) //페이징
+//                .setMaxResults(1000) //최대 1000건
+//                .getResultList();
 //    }
 
 
